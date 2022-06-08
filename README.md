@@ -71,3 +71,11 @@ base – валюта, с которой будет сравниваться п�
 gif.service.url – адрес сервиса выдачи gif
 
 gif.api_key – id для подключения к сервису выдачи gif. **Нужно установить свое значение**
+
+
+**Docker:**
+docker pull alisaaniskina/checkingexchangerate
+docker run -p 8080:8080 alisaaniskina/checkingexchangerate
+
+
+
